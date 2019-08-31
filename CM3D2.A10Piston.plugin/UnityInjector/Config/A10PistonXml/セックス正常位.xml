@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<A10CycloneConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<A10PistonConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EditInformation>
     <EditName>UserName</EditName>
     <TimeStamp>20170110213805</TimeStamp>
@@ -17,108 +17,210 @@
       <YotogiItem>
         <Yotogi_Name>責める</Yotogi_Name>
         <ControlData>
-          <Control Pattern="0" Level="0" LvName=""  Time="1.0" Device="UFOSA"/>
-          <Control Pattern="0" Level="10" LvName="" Time="1.0" Device="UFOSA"/>
-          <Control Pattern="0" Level="30" LvName="" Time="1.0" Device="UFOSA"/>
-          <Control Pattern="0" Level="60" LvName="" Time="1.0" Device="UFOSA"/>
-          <Control Pattern="0" Level="90" LvName="" Time="1.0" Device="UFOSA"/>
-          <Control Pattern="0" Level="60" LvName="" Time="1.0" Device="UFOSA"/>
-          <Control Pattern="0" Level="30" LvName="" Time="1.0" Device="UFOSA"/>
-          <Control Pattern="0" Level="10" LvName="" Time="1.0" Device="UFOSA"/>
-          <Control Pattern="0" Level="0" LvName=""  Time="1.0" Device="UFOSA"/>
-          <Control Pattern="1" Level="10" LvName="" Time="1.0" Device="UFOSA"/>
-          <Control Pattern="1" Level="30" LvName="" Time="1.0" Device="UFOSA"/>
-          <Control Pattern="1" Level="60" LvName="" Time="1.0" Device="UFOSA"/>
-          <Control Pattern="1" Level="90" LvName="" Time="1.0" Device="UFOSA"/>
-          <Control Pattern="1" Level="60" LvName="" Time="1.0" Device="UFOSA"/>
-          <Control Pattern="1" Level="30" LvName="" Time="1.0" Device="UFOSA"/>
-          <Control Pattern="1" Level="10" LvName="" Time="1.0" Device="UFOSA"/>
+          <Control Excite="0" Insert="true" Position="0" Level="1" Time="0.5" />
+          <Control Excite="0" Insert="true" Position="0" Level="15" Time="0.8" />
+          <Control Excite="0" Insert="true" Position="200" Level="15" Time="0.4" />
+          <Control Excite="0" Insert="true" Position="0" Level="15" Time="0.5" />
+          <Control Excite="0" Insert="true" Position="200" Level="8" Time="1.1" />
+          <Control Excite="0" Position="0" Level="15" Time="0.95" />
+          <Control Excite="0" Position="200" Level="10" Time="1.04" />
 
-          <Control Pattern="0" Level="90" LvName="" Time="1.0" Device="A10Cyclone"/>
-          <Control Pattern="0" Level="60" LvName="" Time="1.0" Device="A10Cyclone"/>
-          <Control Pattern="0" Level="30" LvName="" Time="1.0" Device="A10Cyclone"/>
-          <Control Pattern="0" Level="10" LvName="" Time="1.0" Device="A10Cyclone"/>
-          <Control Pattern="0" Level="0" LvName=""  Time="1.0" Device="A10Cyclone"/>
-          <Control Pattern="0" Level="10" LvName="" Time="1.0" Device="A10Cyclone"/>
-          <Control Pattern="0" Level="30" LvName="" Time="1.0" Device="A10Cyclone"/>
-          <Control Pattern="0" Level="60" LvName="" Time="1.0" Device="A10Cyclone"/>
-          <Control Pattern="0" Level="90" LvName="" Time="1.0" Device="A10Cyclone"/>
-          <Control Pattern="1" Level="60" LvName="" Time="1.0" Device="A10Cyclone"/>
-          <Control Pattern="1" Level="30" LvName="" Time="1.0" Device="A10Cyclone"/>
-          <Control Pattern="1" Level="10" LvName="" Time="1.0" Device="A10Cyclone"/>
-          <Control Pattern="1" Level="0" LvName=""  Time="1.0" Device="A10Cyclone"/>
-          <Control Pattern="1" Level="10" LvName="" Time="1.0" Device="A10Cyclone"/>
-          <Control Pattern="1" Level="30" LvName="" Time="1.0" Device="A10Cyclone"/>
-          <Control Pattern="1" Level="60" LvName="" Time="1.0" Device="A10Cyclone"/>
-          <Control Pattern="1" Level="90" LvName="" Time="1.0" Device="A10Cyclone"/>
+          <Control Excite="1" Insert="true" Position="0" Level="1" Time="0.5" />
+          <Control Excite="1" Insert="true" Position="0" Level="15" Time="0.8" />
+          <Control Excite="1" Insert="true" Position="200" Level="15" Time="0.4" />
+          <Control Excite="1" Insert="true" Position="0" Level="15" Time="0.5" />
+          <Control Excite="1" Insert="true" Position="200" Level="8" Time="1.1" />
+          <Control Excite="1" Position="0" Level="15" Time="0.95" />
+          <Control Excite="1" Position="200" Level="10" Time="1.04" />
+
+          <Control Excite="2" Insert="true" Position="0" Level="1" Time="0.5" />
+          <Control Excite="2" Insert="true" Position="0" Level="15" Time="0.8" />
+          <Control Excite="2" Insert="true" Position="200" Level="5" Time="0.8" />
+          <Control Excite="2" Insert="true" Position="200" Level="20" Time="0.2" />
+
+          <Control Excite="2" Position="0" Level="20" Time="0.335" />
+          <Control Excite="2" Position="200" Level="20" Time="0.3" />
+
+          <Control Excite="3" Insert="true" Position="0" Level="1" Time="0.5" />
+          <Control Excite="3" Insert="true" Position="0" Level="15" Time="0.8" />
+          <Control Excite="3" Insert="true" Position="200" Level="10" Time="0.5" />
+
+          <Control Excite="3" Position="0" Level="30" Time="0.18" />
+          <Control Excite="3" Position="200" Level="30" Time="0.18" />
         </ControlData>
       </YotogiItem>
       <YotogiItem>
         <Yotogi_Name>強く責める</Yotogi_Name>
         <ControlData>
-          <Control Pattern="-1" Level="-1" LvName="STOP" />
+          <Control Position="200" Level="5" Time="1" />
         </ControlData>
       </YotogiItem>
       <YotogiItem>
         <Yotogi_Name>止める</Yotogi_Name>
         <ControlData>
-          <Control Pattern="-1" Level="-1" LvName="STOP" />
+          <Control Position="200" Level="5" Time="1" />
         </ControlData>
       </YotogiItem>
       <YotogiItem>
         <Yotogi_Name>放尿絶頂</Yotogi_Name>
         <ControlData>
-          <Control Pattern="-1" Level="-1" LvName="STOP" />
+          <Control Position="200" Level="5" Time="1" />
         </ControlData>
       </YotogiItem>
       <YotogiItem>
         <Yotogi_Name>潮吹き絶頂</Yotogi_Name>
         <ControlData>
-          <Control Pattern="-1" Level="-1" LvName="STOP" />
+          <Control Position="200" Level="5" Time="1" />
         </ControlData>
       </YotogiItem>
       <YotogiItem>
         <Yotogi_Name>中出しおねだり</Yotogi_Name>
         <ControlData>
-          <Control Pattern="-1" Level="-1" LvName="STOP" />
+          <Control Position="200" Level="5" Time="1" />
         </ControlData>
       </YotogiItem>
       <YotogiItem>
         <Yotogi_Name>中出しする</Yotogi_Name>
         <ControlData>
-          <Control Pattern="-1" Level="-1" LvName="STOP" />
+          <Control Position="0" Level="30" Time="0.18" />
+          <Control Position="200" Level="30" Time="0.18" />
+          <Control Position="0" Level="30" Time="0.18" />
+          <Control Position="200" Level="30" Time="0.18" />
+          <Control Position="0" Level="30" Time="0.18" />
+          <Control Position="200" Level="30" Time="0.18" />
+          <Control Position="0" Level="30" Time="0.18" />
+          <Control Position="200" Level="30" Time="0.18" />
+          <Control Position="0" Level="30" Time="0.18" />
+          <Control Position="200" Level="30" Time="0.18" />
+
+          <Control Position="0" Level="30" Time="0.3" />
+          <Control Position="200" Level="30" Time="0.3" />
+          <Control Position="0" Level="30" Time="0.3" />
+          <Control Position="200" Level="30" Time="0.3" />
+          <Control Position="0" Level="30" Time="0.3" />
+          <Control Position="200" Level="30" Time="0.3" />
+          <Control Position="0" Level="30" Time="0.3" />
+          <Control Position="200" Level="30" Time="0.3" />
+          <Control Position="0" Level="30" Time="0.3" />
+          <Control Position="200" Level="30" Time="0.3" />
+          <Control Position="0" Level="30" Time="0.3" />
+          <Control Position="200" Level="30" Time="0.3" />
+
+          <Control Position="0" Level="25" Time="0.4" />
+          <Control Position="200" Level="25" Time="0.4" />
+          <Control Position="0" Level="25" Time="0.4" />
+          <Control Position="200" Level="25" Time="0.4" />
+          <Control Position="0" Level="25" Time="0.4" />
+          <Control Position="200" Level="25" Time="0.4" />
+          <Control Position="0" Level="25" Time="0.4" />
+          <Control Position="200" Level="25" Time="0.4" />
+          <Control Position="0" Level="25" Time="0.4" />
+          <Control Position="200" Level="25" Time="0.4" />
+
+          <Control Position="0" Level="20" Time="0.5" />
+          <Control Position="200" Level="20" Time="0.5" />
+          <Control Position="0" Level="20" Time="0.5" />
+          <Control Position="200" Level="20" Time="0.5" />
+          <Control Position="0" Level="20" Time="0.5" />
+          <Control Position="200" Level="20" Time="0.5" />
+          <Control Position="0" Level="20" Time="0.5" />
+          <Control Position="200" Level="20" Time="0.5" />
+          <Control Position="0" Level="15" Time="0.5" />
+          <Control Position="200" Level="15" Time="0.5" />
+          <Control Position="0" Level="15" Time="0.5" />
+          <Control Position="200" Level="15" Time="0.5" />
+
+          <Control Position="0" Level="10" Time="1" />
+          <Control Position="200" Level="10" Time="1" />
+          <Control Position="0" Level="5" Time="2" />
+          <Control Position="200" Level="5" Time="2" />
+
+          <Control Position="200" Level="5" Time="3600" />
         </ControlData>
       </YotogiItem>
       <YotogiItem>
         <Yotogi_Name>外出しする</Yotogi_Name>
         <ControlData>
-          <Control Pattern="-1" Level="-1" LvName="STOP" />
+          <Control Position="0" Level="30" Time="0.18" />
+          <Control Position="200" Level="30" Time="0.18" />
+          <Control Position="0" Level="30" Time="0.18" />
+          <Control Position="200" Level="30" Time="0.18" />
+          <Control Position="0" Level="30" Time="0.18" />
+          <Control Position="200" Level="30" Time="0.18" />
+          <Control Position="0" Level="30" Time="0.18" />
+          <Control Position="200" Level="30" Time="0.18" />
+          <Control Position="0" Level="30" Time="0.18" />
+          <Control Position="200" Level="30" Time="0.18" />
+
+          <Control Position="0" Level="30" Time="0.3" />
+          <Control Position="200" Level="30" Time="0.3" />
+          <Control Position="0" Level="30" Time="0.3" />
+          <Control Position="200" Level="30" Time="0.3" />
+          <Control Position="0" Level="30" Time="0.3" />
+          <Control Position="200" Level="30" Time="0.3" />
+          <Control Position="0" Level="30" Time="0.3" />
+          <Control Position="200" Level="30" Time="0.3" />
+          <Control Position="0" Level="30" Time="0.3" />
+          <Control Position="200" Level="30" Time="0.3" />
+          <Control Position="0" Level="30" Time="0.3" />
+          <Control Position="200" Level="30" Time="0.3" />
+
+          <Control Position="0" Level="25" Time="0.4" />
+          <Control Position="200" Level="25" Time="0.4" />
+          <Control Position="0" Level="25" Time="0.4" />
+          <Control Position="200" Level="25" Time="0.4" />
+          <Control Position="0" Level="25" Time="0.4" />
+          <Control Position="200" Level="25" Time="0.4" />
+          <Control Position="0" Level="25" Time="0.4" />
+          <Control Position="200" Level="25" Time="0.4" />
+          <Control Position="0" Level="25" Time="0.4" />
+          <Control Position="200" Level="25" Time="0.4" />
+
+          <Control Position="0" Level="20" Time="0.5" />
+          <Control Position="200" Level="20" Time="0.5" />
+          <Control Position="0" Level="20" Time="0.5" />
+          <Control Position="200" Level="20" Time="0.5" />
+          <Control Position="0" Level="20" Time="0.5" />
+          <Control Position="200" Level="20" Time="0.5" />
+          <Control Position="0" Level="20" Time="0.5" />
+          <Control Position="200" Level="20" Time="0.5" />
+          <Control Position="0" Level="15" Time="0.5" />
+          <Control Position="200" Level="15" Time="0.5" />
+          <Control Position="0" Level="15" Time="0.5" />
+          <Control Position="200" Level="15" Time="0.5" />
+
+          <Control Position="0" Level="10" Time="1" />
+          <Control Position="200" Level="10" Time="1" />
+          <Control Position="0" Level="5" Time="2" />
+          <Control Position="200" Level="5" Time="2" />
+
+          <Control Position="200" Level="5" Time="3600" />
         </ControlData>
       </YotogiItem>
       <YotogiItem>
         <Yotogi_Name>キスおねだり</Yotogi_Name>
         <ControlData>
-          <Control Pattern="-1" Level="-1" LvName="STOP" />
+          <Control Position="200" Level="5" Time="1" />
         </ControlData>
       </YotogiItem>
       <YotogiItem>
         <Yotogi_Name>ホールドおねだり</Yotogi_Name>
         <ControlData>
-          <Control Pattern="-1" Level="-1" LvName="STOP" />
+          <Control Position="200" Level="5" Time="1" />
         </ControlData>
       </YotogiItem>
       <YotogiItem>
         <Yotogi_Name>キスしながら</Yotogi_Name>
         <ControlData>
-          <Control Pattern="-1" Level="-1" LvName="STOP" />
+          <Control Position="200" Level="5" Time="1" />
         </ControlData>
       </YotogiItem>
       <YotogiItem>
         <Yotogi_Name>胸を揉みながら</Yotogi_Name>
         <ControlData>
-          <Control Pattern="-1" Level="-1" LvName="STOP" />
+          <Control Position="200" Level="5" Time="1" />
         </ControlData>
       </YotogiItem>
     </YotogiList>
   </YotogiCXConfig>
-</A10CycloneConfig>
+</A10PistonConfig>

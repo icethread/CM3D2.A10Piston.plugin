@@ -1,6 +1,6 @@
 ## CM3D2.A10Cyclone.Plugin
 
-カスタムメイド3D2に電動オナホ「[A10CycloneSA][]」および「[UFOSA][]」を連動させるプラグインです。
+カスタムメイド3D2に電動オナホ「[A10PistonSA][]」を連動させるプラグインです。
 
 現状夜伽のみ対応  
 
@@ -10,16 +10,16 @@ F11キーを押すことによりデバッグ用の再生ウィンドウが表�
 ウィンドウ上にあるXML再読み込みボタンを押すことにより、ゲームを再起動する事なく  
 各種振動設定XMLファイルを再読み込みして更新をする事ができます。  
 
-PCに接続されている「[A10CycloneSA][]」と「[UFOSA][]」を自動判別し、
-同時に振動設定XMLファイルにより同時に制御可能です。
+PCに接続されている「[A10PistonSA][]」を自動判別し、
+振動設定XMLファイルにより制御可能です。
 
 ## 不都合など
 コマンド取得フックなどの関係で現状幾つかのプラグインと同居できない問題があります。
 
 現状同居できないプラグイン  
 ・AddYotogiSlider
-
 ・CM3D2.CycloneX10.Plugin
+・CM3D2.A10Cyclone.Plugin
 
 ## 開発・動作環境
 カスタムメイド3D2	Ver1.60
@@ -29,11 +29,11 @@ PCに接続されている「[A10CycloneSA][]」と「[UFOSA][]」を自動判�
 ### 前提条件  : **Sybarys** 又は **UnityInjector** が導入済みであること。  
 
 [![ダウンロードボタン][img_download]][master zip]を押してzipファイルをダウンロード。   
-解凍後CM3D2.A10Cyclone.Plugin.dllファイルを./Sybaris/Plugins/UnityInjector/フォルダに入れる。
+解凍後CM3D2.A10Piston.Plugin.dllファイルを./Sybaris/Plugins/UnityInjector/フォルダに入れる。
 
 特定のフォーマットで記載したxmlファイルを指定のディレクトリに入れる事により動作します。
 
-./Sybaris/Plugins/UnityInjector/Config/A10CycloneXml/
+./Sybaris/Plugins/UnityInjector/Config/A10PistonXml/
 
 ※フォルダが無い場合は自動で生成されます。
 
@@ -116,14 +116,13 @@ Yotogi_Nameはゲーム内の夜伽コマンドと同じ物を入力する事
 先頭から再度繰り返します。
 
 Controlで使用できる属性一覧  
-・Pattern	：指定した振動パターンにする(0=正転、1=逆転)  
-・Level		：指定した振動レベルにする(0=停止)  
+・Position	：移動位置を指定
+・Level		：指定した速度レベルにする  
 ・LvName	：興奮値による振動レベルを適用(LevelListの識別名と一致させる事)  
 ・Delay		：実行前に指定したDelay(秒)待機をする  
 ・Time		：実行後に指定したTime(秒)待機をする  (指定の無い場合はデフォルトで0.1秒の継続を行います)  
 ・Insert	：trueの場合非挿入→挿入時のみ実行をする  
 ・Personal	：メイドの性格が一致する場合に実行をする  
-・Device    ：制御対象のデバイスを「[A10CycloneSA][]」、「[UFOSA][]」のどちらにするか選択します。指定がない場合は両方に対応します。("A10Cyclone"= A10サイクロンSAを制御、"UFOSA"= U.F.O SAを制御)  
 ・Excite	：興奮レベルが一致する場合に実行(興奮値とレベルの対応はLvName属性と同様)
 
  LevelとLevelNameがそれぞれ定義されていた場合はLevelNameを優先します。
@@ -135,50 +134,35 @@ Controlで使用できる属性一覧
 ```
 <Normal>
   <!--挿入時のみ実行-->
-  <Control Pattern="0" Level="0" Time="0.8" Insert="true" />   停止 0.8秒後に次項目
-  <Control Pattern="0" Level="1" Time="0.2" Insert="true" />   パターン 0 振動レベル 1 で0.2秒後に次項目
-  <Control Pattern="0" Level="0" Time="0.5" Insert="true" />   停止 0.5秒後に次項目
-  <Control Pattern="0" Level="1" Time="1.0" Insert="true" />   パターン 0 振動レベル 1 で1.0秒後に次項目
-  <Control Pattern="0" Level="0" Time="0.5" Insert="true" />   停止 0.5秒後に次項目
-  <Control Pattern="3" Level="1" Time="1.0" Insert="true" />   パターン 3 振動レベル 1 で1.0秒後に次項目
-  <!--通常責め時-->
-  <Control Pattern="3" LvName="PreSet3" />       パターン 3 興奮値のレベルで振動を続ける
+  <Control Position="0" Level="1" Time="0.8" Insert="true" />
+  <Control Position="200" Level="2" Time="0.2" Insert="true" />
+  <Control Position="0" Level="1" Time="0.5" Insert="true" />
+  <Control Position="200" Level="2" Time="1.0" Insert="true" />
+  <Control Position="0" Level="1" Time="0.5" Insert="true" />
+  <Control Position="200" Level="2" Time="1.0" Insert="true" />
 </Normal>
 ```
 ○Personal設定(メイドの性格に応じたパターン設定)
 ```
 <Normal>
   <!--おねだり中(純真妹系)-->
-  <Control Pattern="4" Level="3" Time="15.0" Personal="Pure" />
-  <Control Pattern="8" Level="6" Time="30.0" Personal="Pure" />
+  <Control Position="4" Level="3" Time="15.0" Personal="Pure" />
+  <Control Position="8" Level="6" Time="30.0" Personal="Pure" />
   <!--おねだり中(クール)-->
-  <Control Pattern="4" Level="3" Time="15.0" Personal="Cool" />
-  <Control Pattern="8" Level="6" Time="30.0" Personal="Cool" />
+  <Control Position="4" Level="3" Time="15.0" Personal="Cool" />
+  <Control Position="8" Level="6" Time="30.0" Personal="Cool" />
   <!--おねだり中(プライド)-->
-  <Control Pattern="4" Level="3" Time="15.0" Personal="Pride" />
-  <Control Pattern="8" Level="6" Time="30.0" Personal="Pride" />
+  <Control Position="4" Level="3" Time="15.0" Personal="Pride" />
+  <Control Position="8" Level="6" Time="30.0" Personal="Pride" />
   <!--中出しサンプル-->
-  <Control Pattern="0" Level="0" Time="0.8" />
-  <Control Pattern="0" Level="3" Time="0.2" />
+  <Control Position="0" Level="0" Time="0.8" />
+  <Control Position="0" Level="3" Time="0.2" />
 </Normal>
 ```
-○Device設定(A10サイクロンSA、U.F.O SA同期制御用)
-```
-<Normal>
-  <!--A10サイクロンSAを制御-->
-  <Control Pattern="4" Level="3" Time="10.0" Device="A10Cyclone" />
-  <!--U.F.O SAを制御-->
-  <Control Pattern="4" Level="3" Time="10.0" Device="UFOSA" />
-  <!--指定なしで両方のデバイスを制御-->
-  <Control Pattern="4" Level="3" Time="10.0" />
-</Normal>
-```
-
 ## 本プラグインについて
-本プラグインは、[CM3D2.A10Cyclone.Plugin][]をフォークさせて頂き、機能追加を行っております。
+本プラグインは、[CM3D2.A10Cyclone.Plugin][]を基にピストン用にリカスタマイズを行っております。
 
-[A10CycloneSA]: http://www.vorze.jp/a10cyclonesa/ "A10サイクロンSA"
-[UFOSA]: http://www.vorze.jp/ufosa/ "U.F.O.SA"
-[CM3D2.A10Cyclone.Plugin]: https://github.com/obtdai/CM3D2.A10Cyclone.plugin/ "CM3D2.AddModsSlider.Plugin/"
-[master zip]: https://github.com/icethread/CM3D2.A10Cyclone.plugin/archive/master.zip "master zip"
+[A10PistonSA]: https://www.vorze.jp/a10pistonsa/ "A10ピストンSA"
+[CM3D2.A10Cyclone.Plugin]: https://github.com/icethread/CM3D2.A10Cyclone.plugin/ "CM3D2.AddModsSlider.Plugin/"
+[master zip]: https://github.com/icethread/CM3D2.A10Piston.plugin/archive/master.zip "master zip"
 [img_download]: http://i.imgur.com/byav3Uf.png "ダウンロードボタン"
