@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<A10CycloneConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EditInformation>
+    <EditName>UserName</EditName>
+    <TimeStamp>20170110213805</TimeStamp>
+    <Comment />
+  </EditInformation>
+  <LevelList>
+    <LevelItem Lv0="0" Lv1="0" Lv2="0" Lv3="0">STOP</LevelItem>
+    <LevelItem Lv0="10" Lv1="30" Lv2="50" Lv3="70">PreSet1</LevelItem>
+    <LevelItem Lv0="20" Lv1="40" Lv2="60" Lv3="80">PreSet2</LevelItem>
+    <LevelItem Lv0="60" Lv1="80" Lv2="100" Lv3="120">PreSet3</LevelItem>
+  </LevelList>
+  <YotogiCXConfig>
+    <GroupName>セックス正常位</GroupName>
+    <YotogiList>
+      <YotogiItem>
+        <Yotogi_Name>責める</Yotogi_Name>
+        <ControlData>
+          <Control Pattern="0" Level="0" LvName=""  Time="1.0" Device="UFOSA"/>
+          <Control Pattern="0" Level="10" LvName="" Time="1.0" Device="UFOSA"/>
+          <Control Pattern="0" Level="30" LvName="" Time="1.0" Device="UFOSA"/>
+          <Control Pattern="0" Level="60" LvName="" Time="1.0" Device="UFOSA"/>
+          <Control Pattern="0" Level="90" LvName="" Time="1.0" Device="UFOSA"/>
+          <Control Pattern="0" Level="60" LvName="" Time="1.0" Device="UFOSA"/>
+          <Control Pattern="0" Level="30" LvName="" Time="1.0" Device="UFOSA"/>
+          <Control Pattern="0" Level="10" LvName="" Time="1.0" Device="UFOSA"/>
+          <Control Pattern="0" Level="0" LvName=""  Time="1.0" Device="UFOSA"/>
+          <Control Pattern="1" Level="10" LvName="" Time="1.0" Device="UFOSA"/>
+          <Control Pattern="1" Level="30" LvName="" Time="1.0" Device="UFOSA"/>
+          <Control Pattern="1" Level="60" LvName="" Time="1.0" Device="UFOSA"/>
+          <Control Pattern="1" Level="90" LvName="" Time="1.0" Device="UFOSA"/>
+          <Control Pattern="1" Level="60" LvName="" Time="1.0" Device="UFOSA"/>
+          <Control Pattern="1" Level="30" LvName="" Time="1.0" Device="UFOSA"/>
+          <Control Pattern="1" Level="10" LvName="" Time="1.0" Device="UFOSA"/>
+
+          <Control Pattern="0" Level="90" LvName="" Time="1.0" Device="A10Cyclone"/>
+          <Control Pattern="0" Level="60" LvName="" Time="1.0" Device="A10Cyclone"/>
+          <Control Pattern="0" Level="30" LvName="" Time="1.0" Device="A10Cyclone"/>
+          <Control Pattern="0" Level="10" LvName="" Time="1.0" Device="A10Cyclone"/>
+          <Control Pattern="0" Level="0" LvName=""  Time="1.0" Device="A10Cyclone"/>
+          <Control Pattern="0" Level="10" LvName="" Time="1.0" Device="A10Cyclone"/>
+          <Control Pattern="0" Level="30" LvName="" Time="1.0" Device="A10Cyclone"/>
+          <Control Pattern="0" Level="60" LvName="" Time="1.0" Device="A10Cyclone"/>
+          <Control Pattern="0" Level="90" LvName="" Time="1.0" Device="A10Cyclone"/>
+          <Control Pattern="1" Level="60" LvName="" Time="1.0" Device="A10Cyclone"/>
+          <Control Pattern="1" Level="30" LvName="" Time="1.0" Device="A10Cyclone"/>
+          <Control Pattern="1" Level="10" LvName="" Time="1.0" Device="A10Cyclone"/>
+          <Control Pattern="1" Level="0" LvName=""  Time="1.0" Device="A10Cyclone"/>
+          <Control Pattern="1" Level="10" LvName="" Time="1.0" Device="A10Cyclone"/>
+          <Control Pattern="1" Level="30" LvName="" Time="1.0" Device="A10Cyclone"/>
+          <Control Pattern="1" Level="60" LvName="" Time="1.0" Device="A10Cyclone"/>
+          <Control Pattern="1" Level="90" LvName="" Time="1.0" Device="A10Cyclone"/>
+        </ControlData>
+      </YotogiItem>
+      <YotogiItem>
+        <Yotogi_Name>強く責める</Yotogi_Name>
+        <ControlData>
+          <Control Pattern="-1" Level="-1" LvName="STOP" />
+        </ControlData>
+      </YotogiItem>
+      <YotogiItem>
+        <Yotogi_Name>止める</Yotogi_Name>
+        <ControlData>
+          <Control Pattern="-1" Level="-1" LvName="STOP" />
+        </ControlData>
+      </YotogiItem>
+      <YotogiItem>
+        <Yotogi_Name>放尿絶頂</Yotogi_Name>
+        <ControlData>
+          <Control Pattern="-1" Level="-1" LvName="STOP" />
+        </ControlData>
+      </YotogiItem>
+      <YotogiItem>
+        <Yotogi_Name>潮吹き絶頂</Yotogi_Name>
+        <ControlData>
+          <Control Pattern="-1" Level="-1" LvName="STOP" />
+        </ControlData>
+      </YotogiItem>
+      <YotogiItem>
+        <Yotogi_Name>中出しおねだり</Yotogi_Name>
+        <ControlData>
+          <Control Pattern="-1" Level="-1" LvName="STOP" />
+        </ControlData>
+      </YotogiItem>
+      <YotogiItem>
+        <Yotogi_Name>中出しする</Yotogi_Name>
+        <ControlData>
+          <Control Pattern="-1" Level="-1" LvName="STOP" />
+        </ControlData>
+      </YotogiItem>
+      <YotogiItem>
+        <Yotogi_Name>外出しする</Yotogi_Name>
+        <ControlData>
+          <Control Pattern="-1" Level="-1" LvName="STOP" />
+        </ControlData>
+      </YotogiItem>
+      <YotogiItem>
+        <Yotogi_Name>キスおねだり</Yotogi_Name>
+        <ControlData>
+          <Control Pattern="-1" Level="-1" LvName="STOP" />
+        </ControlData>
+      </YotogiItem>
+      <YotogiItem>
+        <Yotogi_Name>ホールドおねだり</Yotogi_Name>
+        <ControlData>
+          <Control Pattern="-1" Level="-1" LvName="STOP" />
+        </ControlData>
+      </YotogiItem>
+      <YotogiItem>
+        <Yotogi_Name>キスしながら</Yotogi_Name>
+        <ControlData>
+          <Control Pattern="-1" Level="-1" LvName="STOP" />
+        </ControlData>
+      </YotogiItem>
+      <YotogiItem>
+        <Yotogi_Name>胸を揉みながら</Yotogi_Name>
+        <ControlData>
+          <Control Pattern="-1" Level="-1" LvName="STOP" />
+        </ControlData>
+      </YotogiItem>
+    </YotogiList>
+  </YotogiCXConfig>
+</A10CycloneConfig>

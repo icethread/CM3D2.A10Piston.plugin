@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E14C74C6-3750-49E1-9700-4134B87B4BF2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CM3D2.A10Piston.plugin</RootNamespace>
+    <AssemblyName>CM3D2.A10Piston.plugin</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\libs\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\libs\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityInjector">
+      <HintPath>..\libs\UnityInjector.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="A10PistonClass.cs" />
+    <Compile Include="A10PistonConfig.cs" />
+    <Compile Include="CM3D2.A10Piston.plugin.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VorzeUSBSearcher.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\mp全身洗い.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\m字開脚フェラチオ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\うつ伏せアナル後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\うつ伏せ後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\お仕置きアナルセックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\お仕置きギロチン拘束アナルセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\お仕置きギロチン拘束セックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\お仕置きセックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\お仕置きハード三角木馬拘束.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\お仕置きハード吊るし拘束.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\お仕置き三角木馬拘束.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\お仕置き吊るしアナルセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\お仕置き吊るしセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\お仕置き吊るし拘束.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\お仕置き拘束愛撫.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\かっこいいポーズ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\かわいいポーズ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\だいしゅきホールドアナルセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\だいしゅきホールドセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ちんぐりアナルセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ちんぐりセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ちんぐりフェラ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ちんぐり手コキ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\まんぐり返しアナルセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\まんぐり返しアナルセックス2.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\まんぐり返しセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\まんぐり返しセックス2.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\アナルオナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\アナルセックス側位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\アナルセックス対面座位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\アナルセックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\アナルセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\アナルセックス立位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\アナルセックス背面駅弁.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\アナルセックス背面騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\アナルセックス騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\アナルバイブオナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\アナルバイブ責め.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\アナルバイブ責めセックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\アナル処女喪失セックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\イチャイチャフェラオナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\イラマチオ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\オナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\オナホコキ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ギロチン拘束アナルセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ギロチン拘束セックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\グラインドアナルセックス騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\グラインドセックス騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\シックスナイン.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\スケベ椅子アナルセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\スケベ椅子セックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\スケベ椅子フェラ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\スワッピングアナルセックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\スワッピングアナルセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\スワッピングアナルセックス騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\スワッピングセックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\スワッピングセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\スワッピングセックス騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\スワッピングフェラチオ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\スワッピング吊るしアナルセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\スワッピング吊るしセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\スワッピング愛撫.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\セックス側位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\セックス対面座位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\セックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\セックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\セックス立位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\セックス背面駅弁.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\セックス背面騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\セックス騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\セルフイラマ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ダブルフェラ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ダブル奉仕.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ダブル足コキ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ディープスロート.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\トイレアナルオナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\トイレアナルセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\トイレオナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\トイレセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ハード三角木馬拘束.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ハード吊るし拘束.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ハード首絞めアナルセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ハード首絞めセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ハーレムアナルセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ハーレムセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ハーレム奉仕.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\バイブオナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\バイブ責め.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\バイブ責めアナルセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\パイズリ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\パイズリフェラ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\パンツコキ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\フェラオナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\フェラチオ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ポーズ維持プレイ１.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\ポーズ維持プレイ２.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\三角木馬拘束.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交3p2穴セックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交3p2穴セックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交3p2穴駅弁.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交3pアナルセックス側位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交3pアナルセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交3pセックス側位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交3pセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交3p口＆アナルセックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交3p口＆アナルセックス騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交3p口＆セックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交3p口＆セックス騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交4pアナルセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交4pセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交4pセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交奉仕.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交愛撫.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交３p馬乗りアナルイラマチオ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\乱交３p馬乗りイラマチオ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\全身舐め奉仕.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\公開アナルオナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\公開オナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\処女喪失セックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\吊るし拘束.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\吊るし正常位アナルセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\吊るし正常位セックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\変態ポーズプレイ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\太バイブオナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\太バイブ責め.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\完墜ちフェラ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\完墜ち愛撫.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\完墜ち背面アナル騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\完墜ち背面騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\実況オナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\寄り添いアナルセックス側位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\寄り添いセックス側位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\寝フェラ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\尻上げアナル後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\尻上げ後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\尻舐め.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\尻舐めオナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\愛撫.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\手コキ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\手コキオナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\抱えアナルセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\抱えセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\抱きつきアナルセックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\抱きつきセックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\拘束アナルセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\拘束イラマチオ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\拘束セックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\拘束台愛撫.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\拘束愛撫.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\拘束愛撫アナルバイブ責め.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\拘束愛撫バイブ責め.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\教室アナルセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\教室アナル愛撫.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\教室セックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\教室愛撫.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\椅子愛撫.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\椅子拘束アナル騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\椅子拘束騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\洗い.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\淫乱淫語尻穴拡げアナル後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\淫乱淫語正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\淫乱淫語犬プレイセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\潜望鏡フェラ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\犬プレイ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\玉舐めフェラチオ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\痴漢アナルセックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\痴漢アナル愛撫.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\痴漢セックス.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\痴漢愛撫.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\百合クンニ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\百合双頭バイブ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\百合愛撫.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\百合貝合わせ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\磔プレイ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚うつ伏せアナル後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚うつ伏せ後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚アナルセックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚アナルセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚アナルセックス騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚アナルバイブ責め.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚イチャイチャフェラオナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚イラマチオ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚オナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚シックスナイン.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚セックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚セックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚セックス騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚ディープスロート.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚バイブ責め.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚フェラチオ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚寝フェラ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚愛撫.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚腕持ちアナル後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\結婚腕持ち後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\腕拘束イラマチオ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\腕持ちアナル後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\腕持ち後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\言葉責め愛撫.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\詰られアナル騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\詰られパイズリ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\詰られ手コキ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\詰られ騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\足コキ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\足舐め.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\足舐めオナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\酔いアナルセックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\酔いアナルセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\酔いアナルセックス騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\酔いアナルバイブ責め.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\酔いイラマチオ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\酔いオナニー.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\酔いシックスナイン.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\酔いセックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\酔いセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\酔いセックス騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\酔いディープスロート.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\酔いバイブ責め.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\酔いフェラチオ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\酔い愛撫.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\露出アナルセックス背面立位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\露出セックス背面立位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\露出プレイ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\顔面騎乗位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\首絞めアナルセックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\首絞めアナルセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\首絞めセックス後背位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\首絞めセックス正常位.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\高級mp全身洗い.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\A10Piston_DefaultXml\Ｈなポーズ.xml" />
+    <Content Include="UnityInjector\Config\A10PistonXml\セックス正常位.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /B /Y $(ProjectDir)$(OutDir)$(TargetFileName) $(ProjectDir)UnityInjector\$(TargetFileName)</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
